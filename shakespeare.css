@@ -36,3 +36,30 @@
 .plantagenet {
     color: darkblue;
 }
+
+.cast-table {
+    width: 100%;
+    border: dashed 3px red;
+    border-collapse: separate;
+    margin: 20px 0;
+}
+
+.cast-table th, .cast-table td {
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
+}
+
+.cast-table th {
+    background-color: darkred;
+    color: white;
+}
+
+.cast-table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.cast-table tr:hover {
+    background-color: lightcoral;
+    color: white;
+}
